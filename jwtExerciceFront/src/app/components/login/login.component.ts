@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 import {Login} from '../../models/login';
 import {LoginService} from '../../services/login.service';
 
@@ -9,14 +9,19 @@ import {LoginService} from '../../services/login.service';
 })
 export class LoginComponent implements OnInit {
 
+  @Output() loginEvent = new EventEmitter();
+
   constructor(private _loginService: LoginService) { }
 
   ngOnInit(): void {
   }
 
   logIn(login:Login){
-    console.log(login);
-    this._loginService.logIn(login);
+    this._loginService.logIn(login).then(token=>{
+      console.log("result of fetch is");
+      console.log(token);
+      this.loginEvent.emit(token);
+    });
   }
 
 }

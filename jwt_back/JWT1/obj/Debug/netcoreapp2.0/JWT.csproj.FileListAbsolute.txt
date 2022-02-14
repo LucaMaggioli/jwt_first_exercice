@@ -12,3 +12,17 @@ C:\Users\mm\Desktop\WorkingDirectory\JWT\first_exercice\netcore2-jwt\JWT1\obj\De
 C:\Users\mm\Desktop\WorkingDirectory\JWT\first_exercice\netcore2-jwt\JWT1\obj\Debug\netcoreapp2.0\JWT.dll
 C:\Users\mm\Desktop\WorkingDirectory\JWT\first_exercice\netcore2-jwt\JWT1\obj\Debug\netcoreapp2.0\JWT.pdb
 C:\Users\mm\Desktop\WorkingDirectory\JWT\first_exercice\netcore2-jwt\JWT1\obj\Debug\netcoreapp2.0\JWT.genruntimeconfig.cache
+C:\Users\mm\Desktop\WorkingDirectory\JWT\first_exercice\jwt_back\JWT1\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\mm\Desktop\WorkingDirectory\JWT\first_exercice\jwt_back\JWT1\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\mm\Desktop\WorkingDirectory\JWT\first_exercice\jwt_back\JWT1\bin\Debug\netcoreapp2.0\JWT.deps.json
+C:\Users\mm\Desktop\WorkingDirectory\JWT\first_exercice\jwt_back\JWT1\bin\Debug\netcoreapp2.0\JWT.runtimeconfig.json
+C:\Users\mm\Desktop\WorkingDirectory\JWT\first_exercice\jwt_back\JWT1\bin\Debug\netcoreapp2.0\JWT.runtimeconfig.dev.json
+C:\Users\mm\Desktop\WorkingDirectory\JWT\first_exercice\jwt_back\JWT1\bin\Debug\netcoreapp2.0\JWT.dll
+C:\Users\mm\Desktop\WorkingDirectory\JWT\first_exercice\jwt_back\JWT1\bin\Debug\netcoreapp2.0\JWT.pdb
+C:\Users\mm\Desktop\WorkingDirectory\JWT\first_exercice\jwt_back\JWT1\obj\Debug\netcoreapp2.0\JWT.csproj.AssemblyReference.cache
+C:\Users\mm\Desktop\WorkingDirectory\JWT\first_exercice\jwt_back\JWT1\obj\Debug\netcoreapp2.0\JWT.AssemblyInfoInputs.cache
+C:\Users\mm\Desktop\WorkingDirectory\JWT\first_exercice\jwt_back\JWT1\obj\Debug\netcoreapp2.0\JWT.AssemblyInfo.cs
+C:\Users\mm\Desktop\WorkingDirectory\JWT\first_exercice\jwt_back\JWT1\obj\Debug\netcoreapp2.0\JWT.csproj.CoreCompileInputs.cache
+C:\Users\mm\Desktop\WorkingDirectory\JWT\first_exercice\jwt_back\JWT1\obj\Debug\netcoreapp2.0\JWT.dll
+C:\Users\mm\Desktop\WorkingDirectory\JWT\first_exercice\jwt_back\JWT1\obj\Debug\netcoreapp2.0\JWT.pdb
+C:\Users\mm\Desktop\WorkingDirectory\JWT\first_exercice\jwt_back\JWT1\obj\Debug\netcoreapp2.0\JWT.genruntimeconfig.cache

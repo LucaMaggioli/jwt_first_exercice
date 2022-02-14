@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WcEx9MscwBObS8dci61iUYwq5yHbnv/H6c1Rt4rx9N+26ZG9p6bRxkslJYFDhoMc7PYm41PJ7uuQPpV1dXmQGQ==",
+  "dgSpecHash": "1T3/K12RAzCZ6c0ckmerjn/6tRlQVX4jYDiobn086WBSzRpluxpVkRhcMFpWo0Gq5QBDKJmOFr54nT0dRvBQ+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mm\\Desktop\\WorkingDirectory\\JWT\\first_exercice\\netcore2-jwt\\JWT1\\JWT.csproj",
+  "projectFilePath": "C:\\Users\\mm\\Desktop\\WorkingDirectory\\JWT\\first_exercice\\jwt_back\\JWT1\\JWT.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mm\\.nuget\\packages\\libuv\\1.10.0\\libuv.1.10.0.nupkg.sha512",
     "C:\\Users\\mm\\.nuget\\packages\\microsoft.applicationinsights\\2.4.0\\microsoft.applicationinsights.2.4.0.nupkg.sha512",

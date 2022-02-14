@@ -20,6 +20,19 @@ namespace JWT
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddCors(options=>{
+               
+                options.AddPolicy("Policy1",
+                    builder =>
+                    {
+                        // builder.WithOrigins("*");
+                        builder.AllowAnyOrigin()
+                            .AllowAnyHeader()
+                            .AllowAnyMethod();
+                    });
+            });
+
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
                 {
@@ -47,6 +60,8 @@ namespace JWT
             }
 
             app.UseAuthentication();
+
+            app.UseCors("Policy1");
 
             app.UseMvc();
         }
