@@ -1,4 +1,14 @@
 <button (click)="getBooks()">Get Book</button>
-<div>
-  {{books}}
+<div class="">
+  Hello
+</div>
+<div *ngFor="let book of books">
+  <div class="bg-blue">
+    <p>{{book.author}}</p>
+    <p>{{book.title}}</p>
+    <p>{{book.ageRestriction}}</p>
+  </div>
+    <!--<dt class="font-medium text-gray-900">Material</dt>
+    <dd class="mt-2 text-sm text-gray-500">Solid walnut base with rare earth magnets and powder coated steel card cover</dd>
+<p class="font-medium text-gray-900">{{book.author}}</p>-->
 </div>

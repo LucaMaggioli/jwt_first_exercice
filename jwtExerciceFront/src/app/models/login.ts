@@ -5,5 +5,4 @@ export class Login {
     this.username = _username;
     this.password = _password;
   }
-  //username: string;
 }

@@ -8,7 +8,10 @@ export class TokenService {
   constructor() { }
 
   setToken(token: string) {
-    let tokenParsed = JSON.stringify(token);
-    window.sessionStorage.setItem('token', tokenParsed);
+    window.sessionStorage.setItem('token', token);
+  }
+
+  public getToken():string{
+    return sessionStorage.getItem('token');
   }
 }

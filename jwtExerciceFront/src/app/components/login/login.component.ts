@@ -18,9 +18,7 @@ export class LoginComponent implements OnInit {
 
   logIn(login:Login){
     this._loginService.logIn(login).then(token=>{
-      console.log("result of fetch is");
-      console.log(token);
-      this.loginEvent.emit(token);
+      this.loginEvent.emit(token['token']);
     });
   }
 
